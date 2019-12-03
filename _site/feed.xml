@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Dec 2019 11:38:30 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Dec 2019 11:38:30 +0100</lastBuildDate>
+    <link>localhost/oe-service-catalog/</link>
+    <atom:link href="localhost/oe-service-catalog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 Dec 2019 12:17:43 +0100</pubDate>
+    <lastBuildDate>Tue, 03 Dec 2019 12:17:43 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Tue, 03 Dec 2019 11:38:03 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2019/12/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2019/12/03/welcome-to-jekyll.html</guid>
+        <link>localhost/oe-service-catalog/jekyll/update/2019/12/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">localhost/oe-service-catalog/jekyll/update/2019/12/03/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

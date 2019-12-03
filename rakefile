@@ -1,0 +1,9 @@
+# to run a jekyll development server is this: rake serve  
+def execute(command)
+  system "#{command}"
+end
+
+desc 'Jekyll Serve'
+task :serve do
+  execute("jekyll serve --config _config.yml,_config_dev.yml")
+end
