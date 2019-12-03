@@ -1,12 +1,30 @@
-<head>
+<html lang="en" class="no-js">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+     <script>
+      var cl = document.querySelector('html').classList;
+      cl.remove('no-js');
+      cl.add('has-js');
+    </script>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+     <link
+      rel="stylesheet"
+      href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/{{site.ECL_VERSION}}/ec-preset-website/styles/ecl-ec-preset-website.css"
+      integrity="sha256-w015TZofBZqG2q4kMSOlyniyDc4E73ycQJC1PaZeWZI= sha384-gKotZoDvHeXTvucV/TIpUc1BTBXp1ky4tRPuihYrqfKIb9tiWzdtj2uxv8/PQu06 sha512-BGbLIXKDAmQHV0NiqmXkdWwKDDPoxa5eSbSMW5sPbNDPegQ0xVirFwK1p0bWRE9UJY/1GAYGmXLvoA9sdrgbWw=="
+      crossorigin="anonymous"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/{{site.ECL_VERSION}}/ec-preset-website/styles/ecl-ec-preset-website-print.css"
+      integrity="sha256-jL/EapfrS15YDqCg7dkQzHqkb/RHU8je2HtuZ7TQUJc= sha384-GuGVq5EudP4uR8aWOiy9ZYihjUazuuYTW+OjqLGR/EJBkGLIniP0Bd4c9v9luWa+ sha512-vaZY0Antxwyzdb1L4qzMwNJ99ZhlkKbl0oXuxifunSBD+mVC4NigMyABf6+1V9wcD94349FVg4iWEfc1cQMgSQ=="
+      crossorigin="anonymous"
+      media="print"
+    />  
 </head>

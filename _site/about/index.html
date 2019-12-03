@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+  <html lang="en" class="no-js">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>About</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  <meta name="description" content="You are running a local server. You can edit this line in _config_dev.yml.
 ">
-
+     <script>
+      var cl = document.querySelector('html').classList;
+      cl.remove('no-js');
+      cl.add('has-js');
+    </script>
   <link rel="stylesheet" href="/oe-service-catalog/css/main.css">
   <link rel="canonical" href="localhost/oe-service-catalog/about/">
-  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="localhost/oe-service-catalog/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="OE Service Catalog" href="localhost/oe-service-catalog/feed.xml">
+     <link
+      rel="stylesheet"
+      href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v2.17.3/ec-preset-website/styles/ecl-ec-preset-website.css"
+      integrity="sha256-w015TZofBZqG2q4kMSOlyniyDc4E73ycQJC1PaZeWZI= sha384-gKotZoDvHeXTvucV/TIpUc1BTBXp1ky4tRPuihYrqfKIb9tiWzdtj2uxv8/PQu06 sha512-BGbLIXKDAmQHV0NiqmXkdWwKDDPoxa5eSbSMW5sPbNDPegQ0xVirFwK1p0bWRE9UJY/1GAYGmXLvoA9sdrgbWw=="
+      crossorigin="anonymous"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v2.17.3/ec-preset-website/styles/ecl-ec-preset-website-print.css"
+      integrity="sha256-jL/EapfrS15YDqCg7dkQzHqkb/RHU8je2HtuZ7TQUJc= sha384-GuGVq5EudP4uR8aWOiy9ZYihjUazuuYTW+OjqLGR/EJBkGLIniP0Bd4c9v9luWa+ sha512-vaZY0Antxwyzdb1L4qzMwNJ99ZhlkKbl0oXuxifunSBD+mVC4NigMyABf6+1V9wcD94349FVg4iWEfc1cQMgSQ=="
+      crossorigin="anonymous"
+      media="print"
+    />  
 </head>
 
 
@@ -22,7 +40,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/oe-service-catalog/">Your awesome title</a>
+    <a class="site-title" href="/oe-service-catalog/">OE Service Catalog</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -55,6 +73,13 @@
 
     <div class="page-content">
       <div class="wrapper">
+                <div
+  role="alert"
+  class="ecl-message ecl-message--info"
+  data-ecl-message="true"
+  data-ecl-auto-init="Message"
+>Alert
+      </div>
         <article class="post">
 
   <header class="post-header">
@@ -80,19 +105,19 @@
 
 </article>
 
-      </div>
+
     </div>
 
     <footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Your awesome title</h2>
+    <h2 class="footer-heading">OE Service Catalog</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>Your awesome title</li>
+          <li>OE Service Catalog</li>
           <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
         </ul>
       </div>
@@ -118,13 +143,20 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+        <p>You are running a local server. You can edit this line in _config_dev.yml.
 </p>
       </div>
     </div>
 
   </div>
-
+    <script
+      src="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v2.17.3/ec-preset-website/scripts/ecl-ec-preset-website.js"
+      integrity="sha256-YMb5ZFU1G7ApnnYHL6Yq+lWU91PuMIi5kLdpsDytYcg= sha384-lOMYE5Vi4fndijAbmKZsLBXhOywYngUBlmG46MxqRHzG7BSqk/hkD54AhVTch97e sha512-QuoZGg7sIO6dqTm7kMh6kn0kAP7/0xzc3uPvBEBc6mShdUsOppekVnO6U/dRZLBFfPFmzhbBxrO9bkCc5xXQFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      ECL.autoInit();
+    </script>
 </footer>
 
 
