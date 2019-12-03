@@ -7,3 +7,9 @@ desc 'Jekyll Serve'
 task :serve do
   execute("jekyll serve --config _config.yml,_config_dev.yml")
 end
+
+desc 'EC Preset Website'
+task :ecpresetcopy do
+  execute("npm install @ecl/ec-preset-website")
+  execute("mkdir -p ./component-library/dist/ && cp -Rf ./node_modules/@ecl/ec-preset-website/dist/ ./component-library/")
+end
