@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Europa Authentication"
+title:  "Open Europa Content"
 categories: oe
 machine_name: oe_content
 submodule: ""
