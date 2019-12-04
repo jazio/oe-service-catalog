@@ -2,22 +2,11 @@
 
 <div class="ecl-site-header-standardised__container ecl-container">
     <div class="ecl-site-header-standardised__top"><a
-        class="ecl-link ecl-link--standalone ecl-site-header-standardised__logo-link" href="/example"
+        class="ecl-link ecl-link--standalone ecl-site-header-standardised__logo-link" href="{{ site.baseurl }}/
         aria-label="European Commission"><img alt="European Commission logo" title="European Commission"
           class="ecl-site-header-standardised__logo-image"
-          src="component-library/dist/images/logo/logo--en.svg" /></a>
+          src="{{ site.baseurl }}/component-library/dist/images/logo/logo--en.svg" /></a>
       <div class="ecl-site-header-standardised__action">
-        <div class="ecl-site-header-standardised__login-container"><a
-            class="ecl-link ecl-link--standalone ecl-site-header-standardised__login-toggle" href="/example"><svg
-              focusable="false" aria-hidden="true" class="ecl-icon ecl-icon--s">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#general--log-in"></use>
-            </svg>Log in</a></div><a
-          class="ecl-link ecl-link--standalone ecl-site-header-standardised__language-selector" href="/example"
-          data-ecl-language-selector="true" aria-controls="language-list-overlay" aria-expanded="false"><span
-            class="ecl-site-header-standardised__language-icon"><svg focusable="false" aria-hidden="true"
-              class="ecl-icon ecl-icon--s">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#general--language"></use>
-            </svg><span class="ecl-site-header-standardised__language-code">en</span></span>English</a>
         <div class="ecl-site-header-standardised__search-container"><a
             class="ecl-link ecl-link--standalone ecl-site-header-standardised__search-toggle" href="/example"
             data-ecl-search-toggle="true" aria-controls="search-form-id" aria-expanded="false"><svg focusable="false"
@@ -39,77 +28,39 @@
       </div>
     </div>
   </div>
-  <div class="ecl-site-header-harmonised__banner-top">
-    <div class="ecl-container"><a href="/example" class="ecl-link ecl-link--standalone">Class name</a></div>
-  </div>
   <div class="ecl-site-header-standardised__banner">
     <div class="ecl-container"><a class="ecl-link ecl-link--standalone ecl-site-header-standardised__menu-toggle"
-        href="/example"><svg focusable="false" aria-hidden="true" class="ecl-icon ecl-icon--s">
+        href="{{ site.baseurl }}/><svg focusable="false" aria-hidden="true" class="ecl-icon ecl-icon--s">
           <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#general--hamburger"></use>
-        </svg>Menu</a>Site name</div>
+        </svg>Menu</a>{{ site.title }}</div>
   </div>
+  
   <div class="ecl-site-header-standardised__menu">
     <div class="ecl-container">
       <ul class="ecl-site-header-standardised__menu-list">
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
+        <li class="ecl-site-header-standardised__menu-item"><a href="{{ site.baseurl }}/"
             class="ecl-site-header-standardised__menu-link ecl-link ecl-link--standalone">Home</a></li>
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
-            class="ecl-site-header-standardised__menu-link ecl-site-header-standardised__menu-link--active ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
-              class="ecl-link__label">Item 1</span> <svg focusable="false" aria-hidden="true"
-              class="ecl-link__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-180">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#ui--corner-arrow"></use>
-            </svg></a></li>
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
+
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+ <li class="ecl-site-header-standardised__menu-item">
+<a href="{{ my_page.url | prepend: site.baseurl }}"
             class="ecl-site-header-standardised__menu-link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
-              class="ecl-link__label">Item 2</span> <svg focusable="false" aria-hidden="true"
+              class="ecl-link__label">
+            {{ my_page.title }}
+</span> <svg focusable="false" aria-hidden="true"
               class="ecl-link__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-180">
               <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#ui--corner-arrow"></use>
-            </svg></a></li>
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
-            class="ecl-site-header-standardised__menu-link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
-              class="ecl-link__label">Item 3</span> <svg focusable="false" aria-hidden="true"
-              class="ecl-link__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-180">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#ui--corner-arrow"></use>
-            </svg></a></li>
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
-            class="ecl-site-header-standardised__menu-link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
-              class="ecl-link__label">Item 4</span> <svg focusable="false" aria-hidden="true"
-              class="ecl-link__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-180">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#ui--corner-arrow"></use>
-            </svg></a></li>
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
-            class="ecl-site-header-standardised__menu-link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
-              class="ecl-link__label">Item 5</span> <svg focusable="false" aria-hidden="true"
-              class="ecl-link__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-180">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#ui--corner-arrow"></use>
-            </svg></a></li>
-        <li class="ecl-site-header-standardised__menu-item"><a href="/example"
-            class="ecl-site-header-standardised__menu-link ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after"><span
-              class="ecl-link__label">Item 6</span> <svg focusable="false" aria-hidden="true"
-              class="ecl-link__icon ecl-icon ecl-icon--2xs ecl-icon--rotate-180">
-              <use xlink:href="/component-library/dist/media/icons.1dbe9812.svg#ui--corner-arrow"></use>
-            </svg></a></li>
+            </svg>
+          </a>
+          {% endif %}
+        {% endfor %}
+
       </ul>
+
     </div>
   </div>
 
 
-
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
 
 </header>

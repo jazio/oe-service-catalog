@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: OE Service Catalog
+title: OpenEuropa Service Catalog
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -15,8 +15,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/oe-service-catalog" # the subpath of your site, e.g. /blog
 url: "https://jazio.github.io" # the base hostname & protocol for your site
 ECL_VERSION: "v2.17.3"
-twitter_username: jekyllrb
-github_username:  jekyll
+permalink: pretty
+twitter_username: ec-europa
+github_username:  ec-europa
 
 # Build settings
 markdown: kramdown

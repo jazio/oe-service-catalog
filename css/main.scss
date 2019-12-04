@@ -14,9 +14,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+//https://ec.europa.eu/component-library/ec/guidelines/colours/
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #004494;
+$brand-color2:     #FFD617;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -48,6 +50,7 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "experimental",
         "layout",
         "syntax-highlighting"
 ;
