@@ -21,4 +21,4 @@ title: Categories
 </div>
 </section>
 
-
+ {{ site.posts | inspect }} 

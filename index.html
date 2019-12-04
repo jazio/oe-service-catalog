@@ -4,17 +4,22 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="message">
+  Sorry, your browser does not support CSS Grid.
+</div>
+<section class="section">
+  <div class="grid">
 
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <h2>
+    <div class="item">
+      <div class="item__details">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      </div>
+    </div>
     {% endfor %}
-  </ul>
+
+</div>
+</section>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
