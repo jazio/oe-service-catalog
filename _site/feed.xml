@@ -4,11 +4,137 @@
     <title>OpenEuropa Service Catalog</title>
     <description>You are running a local server. You can edit this line in _config_dev.yml.
 </description>
-    <link>localhost/oe-service-catalog/</link>
-    <atom:link href="localhost/oe-service-catalog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Dec 2019 16:47:53 +0100</pubDate>
-    <lastBuildDate>Wed, 04 Dec 2019 16:47:53 +0100</lastBuildDate>
+    <link>http://localhost:4000/oe-service-catalog/</link>
+    <atom:link href="http://localhost:4000/oe-service-catalog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Dec 2019 12:07:50 +0100</pubDate>
+    <lastBuildDate>Thu, 05 Dec 2019 12:07:50 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>OpenEuropa Drupal Module Template</title>
+        <description>&lt;table class=&quot;ecl-table&quot;&gt;
+  &lt;thead class=&quot;ecl-table__head&quot;&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;th class=&quot;ecl-table__header&quot;&gt;&lt;/th&gt;
+      &lt;th class=&quot;ecl-table__header&quot;&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&quot;ecl-table__body&quot;&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Service Name&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OpenEuropa Drupal Module Template&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Availability&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;public&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Category&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OpenEuropa&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Link&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;https://github.com/openeuropa/drupal-module-template&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Description&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;Builds the default files for a module to be used with the OpenEuropa project. It provides the necessary framework and config for creating new modules. &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Version&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;&lt;img class=&quot;confluence-embedded-image confluence-external-resource&quot; src=&quot;https://camo.githubusercontent.com/0a7df14e94c31e042dcbfef9dcca0cf8a7490e88/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f762f6f70656e6575726f70612f64727570616c2d6d6f64756c652d74656d706c6174652e737667&quot; data-image-src=&quot;https://camo.githubusercontent.com/0a7df14e94c31e042dcbfef9dcca0cf8a7490e88/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f762f6f70656e6575726f70612f64727570616c2d6d6f64756c652d74656d706c6174652e737667&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Stability&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;&lt;img class=&quot;confluence-embedded-image confluence-external-resource&quot; src=&quot;https://camo.githubusercontent.com/63410d4e331bc16d448d4cf3bf2e945853ebe2ae/68747470733a2f2f64726f6e652e66706669732e65752f6170692f6261646765732f6f70656e6575726f70612f64727570616c2d6d6f64756c652d74656d706c6174652f7374617475732e737667&quot; data-image-src=&quot;https://camo.githubusercontent.com/63410d4e331bc16d448d4cf3bf2e945853ebe2ae/68747470733a2f2f64726f6e652e66706669732e65752f6170692f6261646765732f6f70656e6575726f70612f64727570616c2d6d6f64756c652d74656d706c6174652f7374617475732e737667&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Popularity&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;&lt;img class=&quot;confluence-embedded-image confluence-external-resource&quot; src=&quot;https://camo.githubusercontent.com/64c7e40a7314772dda3192640aaa4768b488a0d7/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f64742f6f70656e6575726f70612f64727570616c2d6d6f64756c652d74656d706c6174652e737667&quot; data-image-src=&quot;https://camo.githubusercontent.com/64c7e40a7314772dda3192640aaa4768b488a0d7/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f64742f6f70656e6575726f70612f64727570616c2d6d6f64756c652d74656d706c6174652e737667&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Maintainers&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;Open Europa&lt;/td&gt;
+    &lt;/tr&gt;
+
+   
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-drupal-module-tamplate/</link>
+        <guid isPermaLink="true">http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-drupal-module-tamplate/</guid>
+        
+        
+        <category>Open</category>
+        
+        <category>Europa</category>
+        
+      </item>
+    
+      <item>
+        <title>Open Europa Corporate Blocks</title>
+        <description>&lt;table class=&quot;ecl-table&quot;&gt;
+  &lt;thead class=&quot;ecl-table__head&quot;&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;th class=&quot;ecl-table__header&quot;&gt;&lt;/th&gt;
+      &lt;th class=&quot;ecl-table__header&quot;&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&quot;ecl-table__body&quot;&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Service Name&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;Open Europa Corporate Blocks&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Availability&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;public&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Category&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OpenEuropa&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Link&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;https://github.com/openeuropa/oe_corporate_blocks&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Description&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;These are currently the Footer and Site Switcher. The Site Switcher is deprecated and will be removed in version 2.x. Others will be added as requirements emerge.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Version&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;&lt;img class=&quot;confluence-embedded-image confluence-external-resource&quot; src=&quot;https://camo.githubusercontent.com/a321a92722dae1a6d3066a561ea986762b32b2e9/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f762f6f70656e6575726f70612f6f655f636f72706f726174655f626c6f636b732e737667&quot; data-image-src=&quot;https://camo.githubusercontent.com/a321a92722dae1a6d3066a561ea986762b32b2e9/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f762f6f70656e6575726f70612f6f655f636f72706f726174655f626c6f636b732e737667&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Stability&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;&lt;img class=&quot;confluence-embedded-image confluence-external-resource&quot; src=&quot;https://camo.githubusercontent.com/764b5db76e539191d4acf032f4854d1938a13c3d/68747470733a2f2f64726f6e652e66706669732e65752f6170692f6261646765732f6f70656e6575726f70612f6f655f636f6e74656e742f7374617475732e737667&quot; data-image-src=&quot;https://camo.githubusercontent.com/764b5db76e539191d4acf032f4854d1938a13c3d/68747470733a2f2f64726f6e652e66706669732e65752f6170692f6261646765732f6f70656e6575726f70612f6f655f636f6e74656e742f7374617475732e737667&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Popularity&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;&lt;img class=&quot;confluence-embedded-image confluence-external-resource&quot; src=&quot;https://camo.githubusercontent.com/04780bb6a74797284dc9c62e059674bbe9c3a120/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f64742f6f70656e6575726f70612f6f655f636f6e74656e742e737667&quot; data-image-src=&quot;https://camo.githubusercontent.com/04780bb6a74797284dc9c62e059674bbe9c3a120/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f64742f6f70656e6575726f70612f6f655f636f6e74656e742e737667&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;ecl-table__row&quot;&gt;
+      &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Maintainers&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;Open Europa&lt;/td&gt;
+    &lt;/tr&gt;
+
+   
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-corporate-blocks/</link>
+        <guid isPermaLink="true">http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-corporate-blocks/</guid>
+        
+        
+        <category>Open</category>
+        
+        <category>Europa</category>
+        
+      </item>
     
       <item>
         <title>Open Europa Content</title>
@@ -30,7 +156,7 @@
     &lt;/tr&gt;
     &lt;tr class=&quot;ecl-table__row&quot;&gt;
       &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Category&lt;/td&gt;
-      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;oe&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OpenEuropa&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr class=&quot;ecl-table__row&quot;&gt;
       &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Link&lt;/td&gt;
@@ -54,7 +180,7 @@
     &lt;/tr&gt;
     &lt;tr class=&quot;ecl-table__row&quot;&gt;
       &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Maintainers&lt;/td&gt;
-      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OE&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;Open Europa&lt;/td&gt;
     &lt;/tr&gt;
 
    
@@ -63,11 +189,13 @@
 
 </description>
         <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
-        <link>localhost/oe-service-catalog/oe/2019/12/04/oe-content/</link>
-        <guid isPermaLink="true">localhost/oe-service-catalog/oe/2019/12/04/oe-content/</guid>
+        <link>http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-content/</link>
+        <guid isPermaLink="true">http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-content/</guid>
         
         
-        <category>oe</category>
+        <category>Open</category>
+        
+        <category>Europa</category>
         
       </item>
     
@@ -91,7 +219,7 @@
     &lt;/tr&gt;
     &lt;tr class=&quot;ecl-table__row&quot;&gt;
       &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Category&lt;/td&gt;
-      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;oe&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OpenEuropa&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr class=&quot;ecl-table__row&quot;&gt;
       &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Link&lt;/td&gt;
@@ -115,7 +243,7 @@
     &lt;/tr&gt;
     &lt;tr class=&quot;ecl-table__row&quot;&gt;
       &lt;td data-ecl-table-header=&quot;Job title&quot; class=&quot;ecl-table__cell&quot;&gt;Maintainers&lt;/td&gt;
-      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;OE&lt;/td&gt;
+      &lt;td data-ecl-table-header=&quot;EFSI finance approved by EIB&quot; class=&quot;ecl-table__cell&quot;&gt;Open Europa&lt;/td&gt;
     &lt;/tr&gt;
 
    
@@ -124,11 +252,13 @@
 
 </description>
         <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
-        <link>localhost/oe-service-catalog/oe/2019/12/04/oe-authentication/</link>
-        <guid isPermaLink="true">localhost/oe-service-catalog/oe/2019/12/04/oe-authentication/</guid>
+        <link>http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-authentication/</link>
+        <guid isPermaLink="true">http://localhost:4000/oe-service-catalog/open/europa/2019/12/04/oe-authentication/</guid>
         
         
-        <category>oe</category>
+        <category>Open</category>
+        
+        <category>Europa</category>
         
       </item>
     
@@ -150,8 +280,8 @@
 
 </description>
         <pubDate>Tue, 03 Dec 2019 11:38:03 +0100</pubDate>
-        <link>localhost/oe-service-catalog/jekyll/update/2019/12/03/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">localhost/oe-service-catalog/jekyll/update/2019/12/03/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/oe-service-catalog/jekyll/update/2019/12/03/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/oe-service-catalog/jekyll/update/2019/12/03/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
